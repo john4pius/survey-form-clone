@@ -17,16 +17,16 @@
         <form id="survey-form">
             <div id="form-group">
                 <label for="name" id="name-label">Name</label>
-                <input id="name" type="text" required placeholder="enter your name">
+                <input id="name" type="text" required placeholder="enter your name" class="form-control">
             </div>
             <div id="form-group">
                 <label for="email" id="email-label">e-Mail</label>
-                <input id="email" type="email" required placeholder="enter your email">
+                <input id="email" type="email" required placeholder="enter your email" class="form-control">
             </div>
 
             <div id="form-group">
                 <label for="number" id="number-label">Number</label>
-                <input id="number" type="number" min="1" max="10" required placeholder="enter a number">
+                <input id="number" type="number" min="1" max="10" required placeholder="enter a number" class="form-control">
             </div>
             <div id="form-group">
                 <div>
@@ -66,6 +66,16 @@
                         Not Sure
                       </label>
                     </div>
+                </div>
+                <div class="form-group">
+                    <p>What is your favorite feature of freeCodeCamp?</p>
+                    <select id="most-like" name="mostLike" class="form-control" required="">
+                      <option disabled="" selected="" value="">Select an option</option>
+                      <option value="challenges">Challenges</option>
+                      <option value="projects">Projects</option>
+                      <option value="community">Community</option>
+                      <option value="openSource">Open Source</option>
+                  </select>
                 </div>
                 <div id="form-group">
                     <div>
@@ -150,8 +160,6 @@
                 </div>
         </form>
         </div>
-
-
 
         <body>
 
