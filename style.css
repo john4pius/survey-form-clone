@@ -1,0 +1,22 @@
+form {
+    display: block;
+    background: darkblue;
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+}
+
+#title {
+    margin-top: 50px;
+    text-align: center;
+    color: blue;
+}
+
+#description {
+    text-align: center;
+    color: blue;
+}
+
+.survey-form {
+    display: block;
+    background-color: aqua;
+}
