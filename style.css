@@ -1,15 +1,24 @@
-    /*
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: darkblue;
+}
+
+
+/*
+
+
     
-    * {
-        box-sizing: border-box;
-    }
+    
     
     #title {
         margin-top: 50px;
         text-align: center;
         color: blue;
     }
-    
+    yyy
     #description {
         text-align: center;
         color: blue;
@@ -28,12 +37,7 @@
         margin: 0;
     }
     
-    form {
-        display: block;
-        background-color: darkblue;
-        margin-left: 50px;
-        text-align: center;
-    }
+    
     
     #form-group {
         margin: 0 auto 1.25rem auto;
