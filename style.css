@@ -122,3 +122,15 @@ table {
 * {
     box-sizing: border-box;
 }
+
+body::before {
+    background-image: url(https://github.com/john4pius/survey-form-clone/blob/build/src/survey-form-background.jpeg);
+}
+
+.fcc-sfc-container {
+    height: auto;
+    max-width: 700px;
+    min-width: 400px;
+    margin: 0 auto;
+    background-color: #1b1b32;
+}
