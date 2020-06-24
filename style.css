@@ -124,7 +124,7 @@ table {
 }
 
 body::before {
-    background-image: url(https://github.com/john4pius/survey-form-clone/blob/build/src/survey-form-background.jpeg);
+    background-image: url(/src/survey-form-background.jpeg);
 }
 
 .fcc-sfc-container {
@@ -132,5 +132,18 @@ body::before {
     max-width: 700px;
     min-width: 400px;
     margin: 0 auto;
-    background-color: #1b1b32;
+    /* background-color: #1b1b32; */
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    font-size: 1.3rem;
+}
+
+.fcc-sfc-form-group {
+    padding: 10px 0;
+}
+
+.fcc-sfc-input {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 0.1rem;
 }
